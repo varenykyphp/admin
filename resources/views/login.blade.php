@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login | Varenyky CMS</title>
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/admin.css" />
     <style>
         .ftco-section {
             padding: 7em 0;
@@ -185,6 +185,6 @@
             </div>
         </div>
     </section>
-    <script src="/js/app.js"></script>
+    <script src="/js/admin.js"></script>
 </body>
 </html>
