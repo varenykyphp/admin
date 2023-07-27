@@ -9,8 +9,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "varenykyphp/cms": "dev-master"
+        "php": "^8.1"
     },
     "require-dev": {
     },
