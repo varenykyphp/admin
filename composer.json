@@ -1,0 +1,31 @@
+{
+    "name": "varenykyphp/admin",
+    "description": "VarenykyPHP Admin panel",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Deniz Tezcan",
+            "homepage": "https://www.nopulp.nl/"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "varenykyphp/cms": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "VarenykyAdmin\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VarenykyAdmin\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
