@@ -160,7 +160,7 @@
                         <div class="img bg-dark" style="background-image: url(/images/logo-white.png);">
                         </div>
                         <div class="login-wrap p-4 p-md-5">
-                            <form action="/login" class="signin-form" method="POST">
+                            <form action="/authenticate" class="signin-form" method="POST">
                                 @csrf
                                 <div class="form-group mb-3">
                                     <label class="label" for="name">Email</label>
