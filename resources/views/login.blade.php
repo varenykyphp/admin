@@ -181,7 +181,7 @@
                 </div>
             </div>
             <div class="text-center  mt-3">
-                <small class="text-center">{{ __('labels.allrightsreserved') }}</small>
+                <small class="text-center">{!! config('varenyky-admin.colophon') !!}</small>
             </div>
         </div>
     </section>
