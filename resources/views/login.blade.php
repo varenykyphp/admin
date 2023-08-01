@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login | Varenyky CMS</title>
     <link rel="stylesheet" href="/css/admin.css" />
+    <link rel="stylesheet" type="text/css" href="/css/auth.css">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
     <style>
         .ftco-section {
             padding: 7em 0;
@@ -157,7 +159,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-10">
                     <div class="wrap d-md-flex">
-                        <div class="img bg-dark" style="background-image: url(/images/logo-white.png);">
+                        <div class="img bg-dark" style="background-image: url({{ config('varenyky-admin.login-img') }});">
                         </div>
                         <div class="login-wrap p-4 p-md-5">
                             <form action="{{ route('admin.authenticate') }}" class="signin-form" method="POST">
