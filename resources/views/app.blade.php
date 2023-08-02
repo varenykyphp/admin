@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/admin.css" />
     <link rel="stylesheet" type="text/css" href="/css/theme.css">
     <link rel="stylesheet" type="text/css" href="/css/auth.css">
+    @yield('css')
 </head>
 <body>
     <main>
@@ -23,5 +24,6 @@
         </article>
     </main>
     <script src="/js/admin.js"></script>
+    @yield('js')
 </body>
 </html>
