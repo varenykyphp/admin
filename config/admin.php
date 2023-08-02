@@ -8,6 +8,11 @@
                 'name' => 'Dashboard',
                 'link' => '/admin'
             ],
+            [
+                'icon' => 'fa-solid fa-gauge fa-lg',
+                'name' => 'Pages',
+                'link' => '/admin/pages'
+            ],
         ],
 
 
