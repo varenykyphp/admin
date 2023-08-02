@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use VarenykyAdmin\Http\Controllers\ThemeController;
 
