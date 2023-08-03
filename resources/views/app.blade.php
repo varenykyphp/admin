@@ -24,6 +24,7 @@
         </article>
     </main>
     <script src="/js/admin.js"></script>
+    <script src="https://cdn.tiny.cloud/1/03xc5vammwoyka8022s0e8q1x8qb454jueaaja5b7cm44u8s/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     @yield('js')
 </body>
 </html>
