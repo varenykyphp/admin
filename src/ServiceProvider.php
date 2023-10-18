@@ -20,6 +20,7 @@ class ServiceProvider extends BaseServiceProvider
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'varenykyAdmin');
         $this->loadRoutesFrom(__DIR__ . '/../routes/resources.php');
+        $this->loadTranslationsFrom(__DIR__.'/../../resources/lang', 'varenykyAdmin');
 
         $this->publishes([
             __DIR__ . '/../config/admin.php' => config_path('varenyky-admin.php'),
