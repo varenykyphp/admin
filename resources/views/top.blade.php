@@ -17,16 +17,16 @@
 
                 <div class="@hasSection('long-button') col-8 @else col-5 @endif text-end">
                     @hasSection('back-btn')
-                        <a href="@yield('back-btn')" class="btn btn-dark"><i class="fas fa-angle-left me-1"></i>{{ __('varenyky::labels.back') }}</a>
+                        <a href="@yield('back-btn')" class="btn btn-dark"><i class="fas fa-angle-left me-1"></i>{{ __('varenykyAdmin::labels.back') }}</a>
                     @endif
                     @hasSection('download-btn')
-                        <a href="@yield('download-btn')" class="btn btn-info" target="_blank"><i class="fas fa-save me-1"></i>{{ __('varenyky::labels.download') }}</a>
+                        <a href="@yield('download-btn')" class="btn btn-info" target="_blank"><i class="fas fa-save me-1"></i>{{ __('varenykyAdmin::labels.download') }}</a>
                     @endif
                     @hasSection('create-btn')
-                        <a href="@yield('create-btn')" class="btn btn-success"><i class="fas fa-plus me-1"></i>{{ __('varenyky::labels.create') }}</a>
+                        <a href="@yield('create-btn')" class="btn btn-success"><i class="fas fa-plus me-1"></i>{{ __('varenykyAdmin::labels.create') }}</a>
                     @endif
                     @hasSection('save-btn')
-                        <button class="btn btn-success" onclick='window.$("#nopulpForm").submit();'><i class="fa fa-save me-1"></i>{{ __('varenyky::labels.save') }}</button>
+                        <button class="btn btn-success" onclick='window.$("#nopulpForm").submit();'><i class="fa fa-save me-1"></i>{{ __('varenykyAdmin::labels.save') }}</button>
                     @endif
                 </div>
             </div>

@@ -1,13 +1,13 @@
 <div class="container">
     @if (session('success'))
         <div class="alert alert-success d-flex align-items-center" role="alert">
-            <strong>{{ __('varenyky::labels.success') }}!</strong> {{ session('success') }}
+            <strong>{{ __('varenykyAdmin::labels.success') }}!</strong> {{ session('success') }}
         </div>
     @endif
 
     @if (session('error'))
         <div class="alert alert-danger d-flex align-items-center" role="alert">
-            <strong>{{ __('varenyky::labels.error') }}!</strong> {{ session('error') }}
+            <strong>{{ __('varenykyAdmin::labels.error') }}!</strong> {{ session('error') }}
         </div>
     @endif
 
