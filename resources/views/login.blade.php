@@ -164,6 +164,9 @@
                         <div class="login-wrap p-4 p-md-5">
                             <form action="{{ route('admin.authenticate') }}" class="signin-form" method="POST">
                                 @csrf
+                                @foreach ($errors->all() as $error)
+                                <div class="alert alert-danger" role="alert">{{ $error }}</div>
+                                @endforeach
                                 <div class="form-group mb-3">
                                     <label class="label" for="name">Email</label>
                                     <input type="text" name="email" class="form-control" placeholder="Email"
